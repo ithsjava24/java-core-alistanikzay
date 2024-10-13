@@ -4,4 +4,11 @@ import java.util.UUID;
 
 public record ProductRecord(UUID uuid, String name, Category category, BigDecimal price) {
 
+    public String product() {
+        return "";
+    }
+
+    public void setPrice(BigDecimal newPrice) {
+
+    }
 }
